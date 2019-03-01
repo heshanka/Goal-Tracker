@@ -1,6 +1,6 @@
-# todo_app
+# Goal Tracker
 
-A new Flutter application.
+A flutter todo application
 
 ## Getting Started
 
