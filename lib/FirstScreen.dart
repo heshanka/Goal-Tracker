@@ -27,7 +27,7 @@ class FirstScreen extends StatelessWidget {
                         style: TextStyle(color: Color(0xffb006400), fontStyle: FontStyle.italic,),
                       ),
                       Padding(
-                        padding: EdgeInsets.only(top: 100.0, right: 8.0), //LTRB,
+                        padding: EdgeInsets.only(top: 100.0, right: 8.0),
                         child: Align(
                           alignment: Alignment.bottomRight,
                           child: RaisedButton(
