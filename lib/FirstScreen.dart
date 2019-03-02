@@ -26,28 +26,28 @@ class FirstScreen extends StatelessWidget {
                         textScaleFactor: 1.2,
                         style: TextStyle(color: Color(0xffb006400), fontStyle: FontStyle.italic,),
                       ),
-                  ButtonTheme(
-                      minWidth:50.0,
-                      height: 50.0,
-                      child: Padding(
-                        padding: EdgeInsets.fromLTRB(270, 120, 10, 0), //LTRB,
-                        child: RaisedButton(
-                          shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(30.0), ),
-                          child: Text(
-                            "Go to my list!",
-                            style: TextStyle(
-                              fontSize: 16.0,
+                      Padding(
+                        padding: EdgeInsets.only(top: 100.0, right: 8.0), //LTRB,
+                        child: Align(
+                          alignment: Alignment.bottomRight,
+                          child: RaisedButton(
+                            shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(30.0), ),
+                            child: Text(
+                              "Go to my list!",
+                              style: TextStyle(
+                                fontSize: 16.0,
+                              ),
                             ),
+                            color: Color(0xffb74093),
+                            textColor: Colors.white,
+                            onPressed: () => Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (BuildContext context) =>
+                                        TodoList())),
                           ),
-                          color: Color(0xffb74093),
-                          textColor: Colors.white,
-                          onPressed: () => Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (BuildContext context) =>
-                                      TodoList())),
                         ),
-                      ))
+                      )
                 ],
               ),
             )),
