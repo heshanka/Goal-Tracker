@@ -1,16 +1,7 @@
-# todo_app
+# Goal Tracker
 
-A new Flutter application.
+A flutter todo application
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+![s6](https://user-images.githubusercontent.com/20375221/53680240-6c819e00-3c8d-11e9-827e-9916b9fced85.png)
+   ![s2](https://user-images.githubusercontent.com/20375221/53680117-478c2b80-3c8b-11e9-8e40-0ac74199525b.png)   ![s3](https://user-images.githubusercontent.com/20375221/53680118-4a871c00-3c8b-11e9-9f31-16df3ac45272.png)
