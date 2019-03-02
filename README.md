@@ -8,3 +8,5 @@ A flutter todo application
    
    
 [This project started out from Pluralsight.com's flutter course taught by Simone Alessandria and then was developed further :)]
+
+
